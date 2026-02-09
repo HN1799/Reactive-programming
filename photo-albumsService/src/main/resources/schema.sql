@@ -1,0 +1,5 @@
+CREATE TABLE album (
+    id         UUID DEFAULT RANDOM_UUID() PRIMARY KEY,
+    userId     VARCHAR(100) NOT NULL,
+    title VARCHAR(255)  NOT NULL
+);
